@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merci pour votre message - Académie Polyglottis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .thanks-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #fafbfc;
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      .thanks-card {
+        background: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        max-width: 500px;
+        text-align: center;
+        border: 1px solid #eef2f6;
+      }
+      .thanks-card i.fa-circle-check {
+        font-size: 4rem;
+        color: var(--green);
+        margin-bottom: 20px;
+      }
+      .thanks-card h1 {
+        font-size: 1.8rem;
+        color: #1a1a1a;
+        margin-bottom: 10px;
+      }
+      .thanks-card p {
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 30px;
+      }
+
+      /* --- CORRECTION DU BOUTON --- */
+      .btn-back {
+        display: inline-flex; /* Permet d'aligner parfaitement l'icône et le texte */
+        align-items: center; /* Centre verticalement l'icône et le texte */
+        justify-content: center; /* Centre horizontalement tout le contenu */
+        gap: 10px; /* Crée un espace propre entre l'icône et le texte */
+
+        background-color: var(--green);
+        color: white;
+        text-decoration: none;
+
+        /* Dimensions ajustées (plus petites et plus équilibrées) */
+        padding: 10px 20px;
+        font-size: 0.95rem;
+        font-weight: 600;
+        border-radius: 8px;
+
+        transition: all 0.3s ease; /* Animation fluide sur tous les changements */
+        cursor: pointer;
+      }
+
+      .btn-back:hover {
+        background-color: #134e14;
+        transform: translateY(-2px); /* Léger effet de surélévation moderne */
+        box-shadow: 0 5px 15px rgba(26, 105, 27, 0.2); /* Ombre douce au survol */
+      }
+    </style>
+  </head>
+  <body class="thanks-page">
+    <div class="thanks-card">
+      <i class="fa-solid fa-circle-check"></i>
+      <h1>Message bien reçu !</h1>
+      <p>
+        Merci d'avoir contacté l'Académie Polyglottis. Un conseiller pédagogique
+        examine votre demande et vous recontactera par e-mail ou par téléphone
+        sous 24 heures.
+      </p>
+
+      <a href="index.html" class="btn-back">
+        <i class="fa-solid fa-arrow-left"></i> Retour à l'accueil
+      </a>
+    </div>
+  </body>
+</html>

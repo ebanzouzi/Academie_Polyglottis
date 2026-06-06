@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-98NWT9D58Q"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-98NWT9D58Q");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Contactez l'Académie Polyglottis | Inscription & Localisation SIC
+    </title>
+    <meta
+      name="description"
+      content="Contactez-nous par téléphone, WhatsApp ou email. Venez nous rendre visite à Brazzaville, Makélékélé, Quartier SIC, Rue NGALI Pascal pour votre inscription."
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Contact - Académie Polyglottis</title>
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="contact-page">
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="./images/logo.webp" alt="logo" />
+      </div>
+
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="formations.html">Formations</a></li>
+          <li><a href="procedures.html">Procédures</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a
+        href="https://wa.me/242065627029?text=Bonjour,%20je%20souhaite%20avoir%20des%20informations%20sur%20vos%20formations"
+        target="_blank"
+        class="call-btn"
+      >
+        <i class="fa-brands fa-whatsapp"></i> Contactez-nous sur WhatsApp
+      </a>
+    </header>
+
+    <section class="contact-hero">
+      <div class="hero-content">
+        <span class="contact-sub">UNE QUESTION ? UN PROJET ?</span>
+        <h1 id="typewriter-title">
+          <span id="text-target-contact"></span>
+          <!-- <span class="cursor">|</span> -->
+        </h1>
+        <p class="reveal">
+          Notre équipe est à votre entière disposition pour vous guider dans vos
+          choix de formation ou vos projets de mobilité.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-main-container">
+      <div class="contact-grid">
+        <div class="contact-form-box reveal">
+          <h3>
+            <i class="fa-solid fa-envelope-open-text green"></i> Envoyez-nous un
+            message
+          </h3>
+          <p class="form-instructions">
+            Remplissez ce formulaire et un conseiller pédagogique vous
+            recontactera sous 24 heures.
+          </p>
+
+          <!-- <form action="#" method="POST" class="ap-form">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name">Nom complet *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ex: Jean Mustafa"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Numéro de Téléphone *</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Ex: +242 06 562 7029"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse Émail *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Ex: jean.mustafa@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Quel est l'objet de votre demande ? *</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>
+                  Choisissez une option...
+                </option>
+                <option value="anglais">
+                  Formation en Anglais (6 ou 9 mois)
+                </option>
+                <option value="langues">
+                  Autre langue (Italien, Espagnol, Allemand, Chinois)
+                </option>
+                <option value="bureautique">
+                  Informatique : Module Bureautique
+                </option>
+                <option value="infographie">
+                  Informatique : Module Infographie
+                </option>
+                <option value="voyage">
+                  Accompagnement & Procédures de voyage
+                </option>
+                <option value="autre">Autre demande d'information</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message"
+                >Votre message / Spécifications de votre projet</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Dites-nous en plus sur vos besoins ou votre niveau actuel..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">
+              ENVOYER LE MESSAGE <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form> -->
+
+          <form class="ap-form">
+            <input type="hidden" name="_captcha" value="false" />
+
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/merci.html"
+            />
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name">Nom complet *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="Nom complet"
+                  placeholder="Ex: Jean Mustafa"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Numéro de Téléphone *</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="Téléphone"
+                  placeholder="Ex: +242 06 562 7029"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse Émail *</label>
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                placeholder="Ex: jean.mustafa@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Quel est l'objet de votre demande ? *</label>
+              <select id="subject" name="Objet de la demande" required>
+                <option value="" disabled selected>
+                  Choisissez une option...
+                </option>
+                <option value="Formation Anglais">
+                  Formation en Anglais (6 ou 9 mois)
+                </option>
+                <option value="Autre Langue">
+                  Autre langue (Italien, Espagnol, Allemand, Chinois)
+                </option>
+                <option value="Bureautique">
+                  Informatique : Module Bureautique
+                </option>
+                <option value="Infographie">
+                  Informatique : Module Infographie
+                </option>
+                <option value="Accompagnement Voyage">
+                  Accompagnement & Procédures de voyage
+                </option>
+                <option value="Autre demande">
+                  Autre demande d'information
+                </option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message"
+                >Votre message / Spécifications de votre projet</label
+              >
+              <textarea
+                id="message"
+                name="Message"
+                rows="5"
+                placeholder="Dites-nous en plus sur vos besoins..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">
+              ENVOYER LE MESSAGE <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info-sidebar">
+          <div class="info-sidebar-card reveal">
+            <div class="sidebar-icon-box green-bg">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="sidebar-card-text">
+              <span>Appelez-nous directement</span>
+              <h4>
+                <a href="tel:+242065627029" class="green">+242 06 562 7029</a>
+              </h4>
+              <p>Disponible du Lundi au Vendredi de 9h à 18h.</p>
+              <a
+                href="https://wa.me/242065627029"
+                class="whatsapp-quick-link"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp"></i> Nous écrire sur WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <div class="info-sidebar-card reveal">
+            <div class="sidebar-icon-box red-bg">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="sidebar-card-text">
+              <span>Adresse Émail</span>
+              <h4>
+                <a href="mailto:academie.p26@gmail.com" class="red"
+                  >academie.p26@gmail.com</a
+                >
+              </h4>
+              <p>Pour vos questions administratives ou partenariats.</p>
+            </div>
+          </div>
+
+          <div class="info-sidebar-card reveal">
+            <div class="sidebar-icon-box yellow-bg">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="sidebar-card-text">
+              <span>Notre Siège Social</span>
+              <h4>Brazzaville, République du Congo</h4>
+              <p>
+                1714, Rue NGALI Pascal, Quartier SIC, Angola Libre ; Makélékélé.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-contact-section reveal">
+      <div class="why-contact-header">
+        <span class="contact-sub">NOS ENGAGEMENTS</span>
+        <h2>Pourquoi nous contacter ?</h2>
+        <p>
+          L'Académie Polyglottis vous accompagne à chaque étape pour transformer
+          vos ambitions en réussites concrètes.
+        </p>
+      </div>
+
+      <div class="why-contact-grid">
+        <div class="why-card">
+          <div class="why-icon-container green-light-bg">
+            <i class="fa-solid fa-user-astronaut green"></i>
+          </div>
+          <h3>Orientation Personnalisée</h3>
+          <p>
+            Nos conseillers évaluent votre niveau actuel et vous orientent vers
+            le parcours de formation le plus adapté à vos objectifs
+            professionnels.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon-container red-light-bg">
+            <i class="fa-solid fa-bolt red"></i>
+          </div>
+          <h3>Réactivité & Écoute</h3>
+          <p>
+            Une question sur nos modules ou une démarche de voyage ? Notre
+            équipe s'engage à vous apporter une réponse claire et détaillée sous
+            24h.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon-container yellow-light-bg">
+            <i class="fa-solid fa-folder-open yellow"></i>
+          </div>
+          <h3>Suivi rigoureux</h3>
+          <p>
+            Pour vos projets d'études ou d'expatriation en France et en Italie,
+            bénéficiez d'un accompagnement pas-à-pas pour la constitution de
+            votre dossier.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-hours-section reveal">
+      <div class="hours-card">
+        <div class="hours-header">
+          <i class="fa-regular fa-clock green"></i>
+          <h3>Nos Horaires d'Ouverture</h3>
+        </div>
+        <div class="hours-grid">
+          <div class="hours-row">
+            <span>Lundi - Vendredi :</span> <strong>08h00 - 18h00</strong>
+          </div>
+          <div class="hours-row">
+            <span>Samedi :</span> <strong>09h00 - 16h30</strong>
+          </div>
+          <div class="hours-row" class="closed">
+            <span>Dimanche :</span> <strong class="red">Fermé</strong>
+          </div>
+        </div>
+        <p class="hours-note">
+          <i class="fa-solid fa-circle-info"></i> Les inscriptions physiques se
+          font uniquement durant ces horaires à notre siège de Makélékélé.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-map-section reveal">
+      <section class="contact-map-section reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.384561081745!2d15.2285112!3d-4.2987113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3bcf91b5c47f%3A0x6e2dfb6488d57d54!2sBrazzaville!5e0!3m2!1sfr!2scg!4v1716500000000!3m2!1sfr!2scg"
+          width="100%"
+          height="380"
+          style="
+            border: 0;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+          "
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </section>
+    </section>
+
+    <section class="contact-faq-section reveal">
+      <h2>Questions fréquentes avant de nous écrire</h2>
+      <div class="faq-accordion-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Quels sont les documents à fournir pour l'inscription ?</h4>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Pour l'informatique et les langues, une copie de votre pièce
+              d'identité (si vous en avez) et deux photos d'identité suffisent.
+              Pour les procédures de voyage, nos conseillers vous fourniront une
+              liste sur-mesure selon votre profil.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>
+              Puis-je payer mes frais de formation en plusieurs tranches ?
+            </h4>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Oui, l'Académie Polyglottis propose des facilités de paiement. Les
+              modalités (2 ou 3 versements) vous seront expliquées en détail
+              lors de la validation de votre inscription.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer-head">
+        <div class="logo">
+          <img src="./images/logo.webp" alt="Logo Académie Polyglottis" />
+        </div>
+        <div class="footer-comment">
+          Votre centre de précellence et de formation en Langues, Informatique
+          et accompagnement personnalisé pour vos démarches de voyage en France
+          et en Italie.
+        </div>
+        <div class="footer-content">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">A Propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="formations.html">Formations</a></li>
+            <li><a href="procedures.html">Procédures</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h4>Nos formations</h4>
+          <ul>
+            <li>Langues étrangères</li>
+            <li>Informatique & Bureautique</li>
+            <li>Accompagnement Voyage</li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h4>Contactez-nous</h4>
+          <div class="fce">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+242065627029">+242 06 562 7029</a>
+          </div>
+          <div class="fce">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:academie.p26@gmail.com">academie.p26@gmail.com</a>
+          </div>
+          <div class="fce">
+            <i class="fa-solid fa-location-dot"></i>
+            <span
+              >1714, Rue NGALI Pascal, Quartier SIC, Angola Libre ; Makélékélé,
+              Brazzaville</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-foot">
+        <!-- <p>© 2026 Académie Polyglottis - Tous droits réservés</p> -->
+        <p>
+          © 2026 Académie Polyglottis - Tous droits réservés |
+          <a href="legal.html" class="red" style="text-decoration: none"
+            >Mentions Légales</a
+          >
+        </p>
+        <div class="footer-icons">
+          <a
+            href="https://www.facebook.com/share/1LQLJa22fg/?mibextid=wwXIfr"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/Facebook logo.webp" alt="Facebook" />
+          </a>
+          <a href="https://wa.me/242065627029" target="_blank" rel="noreferrer">
+            <img src="./images/whatsapp.webp" alt="WhatsApp" />
+          </a>
+          <a
+            href="https://www.instagram.com/academiepolyglottis?igsh=MXVmbjRveDEwbG81Zw%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/instagram.webp" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="accueil.js"></script>
+  </body>
+</html>
